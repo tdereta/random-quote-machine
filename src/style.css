@@ -1,0 +1,47 @@
+* {
+  transition: background-color 1.5s ease-in-out;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #535bf2;
+  font-family: "Open Sans", sans-serif;
+}
+
+#quote-box {
+  display: flex;
+  background-color: #fff;
+  border-radius: 5px;
+  flex-direction: column;
+  width: 450px;
+
+  padding: 30px;
+}
+
+#text {
+  font-size: 25px;
+  color: #222;
+  text-align: center;
+}
+
+#text span {
+  font-size: 30px;
+}
+
+#author {
+  align-self: flex-end;
+  padding: 20px 0;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+#link {
+  display: flex;
+  justify-content: space-between;
+}
+button#new-quote {
+  width: 120px;
+}
